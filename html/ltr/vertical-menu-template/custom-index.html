@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <!--    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">-->
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/ui/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="../../../app-assets/vendors/css/tables/datatable/extensions/dataTables.checkboxes.css">
+    <link rel="stylesheet" type="text/css"
+          href="../../../app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
+
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-invoice.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern 2-columns  navbar-sticky fixed-footer" data-open="click"
+      data-menu="vertical-menu-modern" data-col="2-columns">
+
+<!-- BEGIN: Header-->
+<div class="header-navbar-shadow"></div>
+<nav class="header-navbar main-header-navbar navbar-expand-lg navbar navbar-with-menu fixed-top ">
+    <div class="navbar-wrapper">
+        <div class="navbar-container content">
+            <div class="navbar-collapse" id="navbar-mobile">
+                <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item mobile-menu d-xl-none mr-auto"><a
+                                class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
+                                class="ficon bx bx-menu"></i></a></li>
+                    </ul>
+                    <!--                    <ul class="nav navbar-nav bookmark-icons">-->
+                    <!--                        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html" data-toggle="tooltip" data-placement="top" title="Email"><i class="ficon bx bx-envelope"></i></a></li>-->
+                    <!--                        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html" data-toggle="tooltip" data-placement="top" title="Chat"><i class="ficon bx bx-chat"></i></a></li>-->
+                    <!--                        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html" data-toggle="tooltip" data-placement="top" title="Todo"><i class="ficon bx bx-check-circle"></i></a></li>-->
+                    <!--                        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html" data-toggle="tooltip" data-placement="top" title="Calendar"><i class="ficon bx bx-calendar-alt"></i></a></li>-->
+                    <!--                    </ul>-->
+                    <!--                    <ul class="nav navbar-nav">-->
+                    <!--                        <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon bx bx-star warning"></i></a>-->
+                    <!--                            <div class="bookmark-input search-input">-->
+                    <!--                                <div class="bookmark-input-icon"><i class="bx bx-search primary"></i></div>-->
+                    <!--                                <input class="form-control input" type="text" placeholder="Explore Frest..." tabindex="0" data-search="template-search">-->
+                    <!--                                <ul class="search-list"></ul>-->
+                    <!--                            </div>-->
+                    <!--                        </li>-->
+                    <!--                    </ul>-->
+                </div>
+                <ul class="nav navbar-nav float-right">
+                    <li class="dropdown dropdown-language nav-item">
+                        <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <i class="flag-icon flag-icon-ru"></i><span class="selected-language">Русский</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-flag">
+                            <a class="dropdown-item" href="#" data-language="en"><i
+                                    class="flag-icon flag-icon-ru mr-50"></i> Русский</a>
+                            <a class="dropdown-item" href="#" data-language="fr"><i
+                                    class="flag-icon flag-icon-uz mr-50"></i> Узбекский</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i
+                            class="ficon bx bx-fullscreen"></i></a></li>
+                    <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i
+                            class="ficon bx bx-search"></i></a>
+                        <div class="search-input">
+                            <div class="search-input-icon"><i class="bx bx-search primary"></i></div>
+                            <input class="input" type="text" placeholder="Explore Frest..." tabindex="-1"
+                                   data-search="template-search">
+                            <div class="search-input-close"><i class="bx bx-x"></i></div>
+                            <ul class="search-list"></ul>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-basket">
+                        <a class="nav-link nav-link-basket">
+                            <i class="ficon bx bx-basket"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#"
+                                                                           data-toggle="dropdown"><i
+                            class="ficon bx bx-bell bx-tada bx-flip-horizontal"></i><span
+                            class="badge badge-pill badge-danger badge-up">5</span></a>
+                        <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                            <li class="dropdown-menu-header">
+                                <div class="dropdown-header px-1 py-75 d-flex justify-content-between"><span
+                                        class="notification-title">5 new Notification</span><span
+                                        class="text-bold-400 cursor-pointer">Mark all as read</span></div>
+                            </li>
+                            <li class="scrollable-container media-list"><a class="d-flex justify-content-between"
+                                                                           href="javascript:void(0)">
+                                <div class="media d-flex align-items-center">
+                                    <div class="media-left pr-0">
+                                        <div class="avatar mr-1 m-0"><img
+                                                src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                                                alt="avatar" height="39" width="39"></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6 class="media-heading"><span class="text-bold-500">Congratulate Socrates Itumay</span>
+                                            for work anniversaries</h6><small class="notification-text">Mar 15
+                                        12:32pm</small>
+                                    </div>
+                                </div>
+                            </a>
+                                <div class="d-flex justify-content-between read-notification cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="../../../app-assets/images/portrait/small/avatar-s-16.jpg"
+                                                    alt="avatar" height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">New Message</span>
+                                                received</h6><small class="notification-text">You have 18 unread
+                                            messages</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center py-0">
+                                        <div class="media-left pr-0"><img class="mr-1"
+                                                                          src="../../../app-assets/images/icon/sketch-mac-icon.png"
+                                                                          alt="avatar" height="39" width="39"></div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span
+                                                    class="text-bold-500">Updates Available</span></h6><small
+                                                class="notification-text">Sketch 50.2 is currently newly added</small>
+                                        </div>
+                                        <div class="media-right pl-0">
+                                            <div class="row border-left text-center">
+                                                <div class="col-12 px-50 py-75 border-bottom">
+                                                    <h6 class="media-heading text-bold-500 mb-0">Update</h6>
+                                                </div>
+                                                <div class="col-12 px-50 py-75">
+                                                    <h6 class="media-heading mb-0">Close</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-primary bg-lighten-5 mr-1 m-0 p-25"><span
+                                                    class="avatar-content text-primary font-medium-2">LD</span></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">New customer</span> is
+                                                registered</h6><small class="notification-text">1 hrs ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer">
+                                    <div class="media d-flex align-items-center justify-content-between">
+                                        <div class="media-left pr-0">
+                                            <div class="media-body">
+                                                <h6 class="media-heading">New Offers</h6>
+                                            </div>
+                                        </div>
+                                        <div class="media-right">
+                                            <div class="custom-control custom-switch">
+                                                <input class="custom-control-input" type="checkbox" checked
+                                                       id="notificationSwtich">
+                                                <label class="custom-control-label" for="notificationSwtich"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-danger bg-lighten-5 mr-1 m-0 p-25"><span
+                                                    class="avatar-content"><i
+                                                    class="bx bxs-heart text-danger"></i></span></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">Application</span> has
+                                                been approved</h6><small class="notification-text">6 hrs ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between read-notification cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="../../../app-assets/images/portrait/small/avatar-s-4.jpg"
+                                                    alt="avatar" height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">New file</span> has
+                                                been uploaded</h6><small class="notification-text">4 hrs ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-rgba-danger m-0 mr-1 p-25">
+                                                <div class="avatar-content"><i class="bx bx-detail text-danger"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">Finance report</span>
+                                                has been generated</h6><small class="notification-text">25 hrs
+                                            ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center border-0">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="../../../app-assets/images/portrait/small/avatar-s-16.jpg"
+                                                    alt="avatar" height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">New customer</span>
+                                                comment recieved</h6><small class="notification-text">2 days ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown-menu-footer"><a
+                                    class="dropdown-item p-50 text-primary justify-content-center"
+                                    href="javascript:void(0)">Read all notifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link"
+                                                                   href="#" data-toggle="dropdown">
+                        <div class="user-nav d-sm-flex d-none">
+                            <span class="user-name">Toyrova Amina</span>
+                            <span class="user-status text-muted">Buxgalter</span></div>
+                        <!--                            <span><img class="round" src="../../../app-assets/images/portrait/small/avatar-s-11.jpg" alt="avatar" height="40" width="40">-->
+                        <!--                            </span>-->
+                    </a>
+                        <div class="dropdown-menu dropdown-menu-right pb-0"><a class="dropdown-item"
+                                                                               href="page-user-profile.html"><i
+                                class="bx bx-user mr-50"></i> Edit Profile</a><a class="dropdown-item"
+                                                                                 href="app-email.html"><i
+                                class="bx bx-envelope mr-50"></i> My Inbox</a><a class="dropdown-item"
+                                                                                 href="app-todo.html"><i
+                                class="bx bx-check-square mr-50"></i> Task</a><a class="dropdown-item"
+                                                                                 href="app-chat.html"><i
+                                class="bx bx-message mr-50"></i> Chats</a>
+                            <div class="dropdown-divider mb-0"></div>
+                            <a class="dropdown-item" href="auth-login.html"><i class="bx bx-power-off mr-50"></i> Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- END: Header-->
+
+
+<!-- BEGIN: Main Menu-->
+<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+    <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+            <li class="nav-item mr-auto"><a class="navbar-brand"
+                                            href="../../../html/ltr/vertical-menu-template/index.html">
+                <div class="brand-logo"><img class="logo" src="../../../app-assets/images/logo/logo.png"/></div>
+                <h2 class="brand-text mb-0">EcoExpress</h2>
+            </a></li>
+            <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                    class="bx bx-x d-block d-xl-none font-medium-4 danger toggle-icon"></i><i
+                    class="toggle-icon bx bx-disc font-medium-4 d-none d-xl-block primary" data-ticon="bx-disc"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="shadow-bottom"></div>
+    <div class="main-menu-content">
+        <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation"
+            data-icon-style="lines">
+            <li class="nav-item"><a href="../../../html/ltr/vertical-menu-template/custom-index.html"><i
+                    class="menu-livicon" data-icon="desktop"></i><span class="menu-title" data-i18n="">Dashboard</span></a>
+            </li>
+
+            <li class="nav-item"><a href="../../../html/ltr/vertical-menu-template/custom-products.html">
+                <i class="menu-livicon" data-icon="list"></i><span class="menu-title" data-i18n="">Products</span></a>
+            </li>
+            <li class="active nav-item"><a href="../../../html/ltr/vertical-menu-template/custom-index.html"><i
+                    class="menu-livicon" data-icon="notebook"></i><span class="menu-title"
+                                                                        data-i18n="">Orders</span></a></li>
+
+            <li class="nav-item"><a href="../../../html/ltr/vertical-menu-template/custom-auth-login.html"><i
+                    class="menu-livicon" data-icon="unlock"></i><span class="menu-title" data-i18n="">Login</span></a>
+            </li>
+            <!--<li class=" nav-item"><a href="../../../html/ltr/vertical-menu-template/auth-register.html"><i class="menu-livicon" data-icon="users"></i><span class="menu-title" data-i18n="">Register</span></a></li>-->
+            <!--            <li class=" nav-item"><a href="#"><i class="menu-livicon" data-icon="unlink"></i><span class="menu-title" data-i18n="">Starter kit</span></a>-->
+            <!--                <ul class="menu-content">-->
+            <!--                    <li><a href="sk-layout-1-column.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="nav.sk_starter_kit.1_column">1 column</span></a>-->
+            <!--                    </li>-->
+            <!--                    <li><a href="sk-layout-2-columns.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="nav.sk_starter_kit.2_columns">2 columns</span></a>-->
+            <!--                    </li>-->
+            <!--                    <li><a href="sk-layout-fixed-navbar.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="nav.sk_starter_kit.fixed_navbar">Fixed navbar</span></a>-->
+            <!--                    </li>-->
+            <!--                    <li class="active"><a href="sk-layout-fixed.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="nav.sk_starter_kit.fixed_layout">Fixed layout</span></a>-->
+            <!--                    </li>-->
+            <!--                    <li><a href="sk-layout-static.html"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="nav.sk_starter_kit.static_layout">Static layout</span></a>-->
+            <!--                    </li>-->
+            <!--                </ul>-->
+            <!--            </li>-->
+            <!--            <li class=" nav-item"><a href="https://pixinvent.ticksy.com/" target="_blank"><i class="menu-livicon" data-icon="help"></i><span class="menu-title" data-i18n="">Raise Support</span></a>-->
+            <!--            </li>-->
+            <!--            <li class=" nav-item"><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/documentation" target="_blank"><i class="menu-livicon" data-icon="morph-folder"></i><span class="menu-title" data-i18n="">Documentation</span></a>-->
+            <!--            </li>-->
+        </ul>
+    </div>
+</div>
+<!-- END: Main Menu-->
+
+<!-- BEGIN: Content-->
+<div class="app-content content">
+    <div class="content-overlay"></div>
+    <div class="content-wrapper">
+        <div class="content-header row">
+        </div>
+        <div class="content-body">
+            <div class="app-content-overlay"></div>
+            <section class="bootstrap-select">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="card background-none">
+                            <div class="card-header pb-0 pl-1 pr-1">
+                                <div class="row p-0 m-0 w-100">
+                                    <div class="col-12 pl-0 pr-0 pr-lg-1 pl-lg-1">
+                                        <div class="form-group d-flex col-sm-12 offset-sm-0 col-md-6 offset-md-3 p-0  mb-0">
+                                            <input class="select2 form-control no-border-bottom-right-radius no-border-top-right-radius" tabindex="-1" aria-hidden="true" id="searchProductField" placeholder="" />
+                                            <button id="searhBtn" class="btn btn-primary no-border-bottom-left-radius no-border-top-left-radius fonticon-wrap">
+                                                <i class="livicon-evo livicon-evo-holder" id="searchIcon" data-options="name: loader-9.svg; size: 20px; style: lines; strokeColor:#fff" style="top:0"></i>
+                                            </button>
+                                        </div>
+                                        <div class="form-group d-flex col-sm-12 offset-sm-0 col-md-6 offset-md-3 hidden" style="padding-left: 0px; padding-top:6px" id="search_input_messages">
+                                            <small class="warning">Введите более 3 символов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="search-result hidden" id="searchResult">
+                                        <div class="row mb-1 text-center align-content-center">
+                                            <div class="col-12">
+                                                <label class="app-content m-0">Найденные товары</label>
+                                            </div>
+                                        </div>
+                                        <div class="row p-0  m-0 no-gutters">
+                                            <div class="col-md-3 col-sm-6 mb-sm-1">
+                                                <div class="card">
+                                                    <div class="card-content">
+                                                        <img class="card-img-top img-fluid" src="../../../app-assets/images/slider/01.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title mt-1">Card title</h4>
+                                                            <p class="card-text mx-hght100px">
+                                                                This card has supporting text below as a natural lead-in to
+                                                                additional content. This card has supporting text below as a natural lead-in to
+                                                                additional content. This card has supporting text below as a natural lead-in to
+                                                                additional content.
+                                                            </p>
+                                                            <div class="row m-0 p-0">
+                                                                <div class="col-6 p-0 m-0">
+
+                                                                </div>
+                                                                <div class="col-6 p-0 m-0 text-right">
+                                                                    <button class="btn btn-primary">Add</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row" id="popularAndSellerRes">
+                                        <div class="col-sm-12 col-md-6 pl-0 pr-0 pr-lg-1 pl-lg-1">
+                                            <div class="card">
+                                                <div class="row">
+                                                    <div class="col-12 h-500">
+                                                        <label class="app-content m-0 p-1">Популярные товары</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 pl-0 pr-0 pr-lg-1 pl-lg-1">
+                                            <div class="card">
+                                                <div class="row">
+                                                    <div class="col-12 h-500">
+                                                        <label class="app-content m-0 p-1">Проданные товары</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card position-absolute position-top-0 w-25 w-xs-100 orders">
+                    <div class="card-header d-flex justify-content-between align-items-center border-bottom">
+                        <h6 class="mb-0">Orders</h6>
+                        <div class="app-file-action-icons d-flex align-items-center">
+                            <i class="bx bx-x close-icon cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+</div>
+<!-- END: Content-->
+<!-- END: Content-->
+
+<div class="sidenav-overlay"></div>
+<div class="drag-target"></div>
+
+<!-- BEGIN: Footer-->
+<footer class="footer fixed-footer footer-light">
+    <p class="clearfix mb-0"><span class="float-left d-inline-block">2020 &copy; EcoExpress</span>
+
+        <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
+    </p>
+</footer>
+<!-- END: Footer-->
+
+
+<!-- BEGIN: Vendor JS-->
+<script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+<script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+<script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+<script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+<!--<script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>-->
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="../../../app-assets/vendors/js/ui/prism.min.js"></script>
+<script src="../../../app-assets/vendors/js/tables/datatable/datatables.min.js"></script>
+<script src="../../../app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js"></script>
+<script src="../../../app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+<script src="../../../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+<script src="../../../app-assets/vendors/js/tables/datatable/responsive.bootstrap.min.js"></script>
+
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="../../../app-assets/js/scripts/configs/vertical-menu-light.js"></script>
+<script src="../../../app-assets/js/core/app-menu.js"></script>
+<script src="../../../app-assets/js/core/app.js"></script>
+<script src="../../../app-assets/js/scripts/components.js"></script>
+<script src="../../../app-assets/js/scripts/footer.js"></script>
+<script src="../../../app-assets/js/scripts/customizer.js"></script>
+<script src="../../../assets/page/home/seller.js"></script>
+
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="../../../app-assets/js/scripts/pages/app-invoice.js"></script>
+<!-- END: Page JS-->
+
+</body>
+<!-- END: Body-->
+
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Laravel Integration - Frest - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../app-assets/images/ico/apple-icon-60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../app-assets/images/ico/apple-icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../app-assets/images/ico/apple-icon-152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN Frest CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- link(rel='stylesheet', type='text/css', href='../../../app-assets/css'+rtl+'/core/menu/menu-types/vertical-overlay-menu.css')-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/ui/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/ui/prism-treeview.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/documentation.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END Custom CSS-->
+</head>
+
+<body class="vertical-layout vertical-menu-modern 2-columns  fixed-navbar" data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
+
+    <!-- fixed-top-->
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu fixed-top navbar-light navbar-shadow">
+        <div class="navbar-wrapper">
+            <div class="navbar-container content float-right">
+                <div class="collapse navbar-collapse" id="navbar-mobile">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="btn btn-outline-secondary btn-doc-header" href="https://www.pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/landing-page/" target="_blank"><i class="bx bx-layout mr-50"></i>Live Preview</a></li>
+                        <li class="nav-item"><a class="btn btn-success btn-doc-header" href="https://pixinvent.ticksy.com" target="_blank"><i class="bx bx-buoy text-white mr-50"></i>Support</a></li>
+                        <li class="nav-item"><a class="btn btn-warning btn-doc-header" href="https://1.envato.market/frest_admin"><i class="bx bx-cart text-white mr-50"></i>Purchase</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand">
+                        <div class="brand-logo">
+                            <svg class="logo" width="26px" height="26px" viewbox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>icon</title>
+                                <defs>
+                                    <lineargradient id="linearGradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
+                                        <stop stop-color="#5A8DEE" offset="0%"></stop>
+                                        <stop stop-color="#699AF9" offset="100%"></stop>
+                                    </lineargradient>
+                                    <lineargradient id="linearGradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop stop-color="#FDAC41" offset="0%"></stop>
+                                        <stop stop-color="#E38100" offset="100%"></stop>
+                                    </lineargradient>
+                                </defs>
+                                <g id="Sprite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="sprite" transform="translate(-69.000000, -61.000000)">
+                                        <g id="Group" transform="translate(17.000000, 15.000000)">
+                                            <g id="icon" transform="translate(52.000000, 46.000000)">
+                                                <path id="Combined-Shape" d="M13.5909091,1.77272727 C20.4442608,1.77272727 26,7.19618701 26,13.8863636 C26,20.5765403 20.4442608,26 13.5909091,26 C6.73755742,26 1.18181818,20.5765403 1.18181818,13.8863636 C1.18181818,13.540626 1.19665566,13.1982714 1.22574292,12.8598734 L6.30410592,12.859962 C6.25499466,13.1951893 6.22958398,13.5378796 6.22958398,13.8863636 C6.22958398,17.8551125 9.52536149,21.0724191 13.5909091,21.0724191 C17.6564567,21.0724191 20.9522342,17.8551125 20.9522342,13.8863636 C20.9522342,9.91761479 17.6564567,6.70030817 13.5909091,6.70030817 C13.2336969,6.70030817 12.8824272,6.72514561 12.5388136,6.77314791 L12.5392575,1.81561642 C12.8859498,1.78721495 13.2366963,1.77272727 13.5909091,1.77272727 Z"></path>
+                                                <path id="Combined-Shape" d="M13.8863636,4.72727273 C18.9447899,4.72727273 23.0454545,8.82793741 23.0454545,13.8863636 C23.0454545,18.9447899 18.9447899,23.0454545 13.8863636,23.0454545 C8.82793741,23.0454545 4.72727273,18.9447899 4.72727273,13.8863636 C4.72727273,13.5378966 4.74673291,13.1939746 4.7846258,12.8556254 L8.55057141,12.8560055 C8.48653249,13.1896162 8.45300462,13.5340745 8.45300462,13.8863636 C8.45300462,16.887125 10.8856023,19.3197227 13.8863636,19.3197227 C16.887125,19.3197227 19.3197227,16.887125 19.3197227,13.8863636 C19.3197227,10.8856023 16.887125,8.45300462 13.8863636,8.45300462 C13.529522,8.45300462 13.180715,8.48740462 12.8430777,8.55306931 L12.8426531,4.78608796 C13.1851829,4.7472336 13.5334422,4.72727273 13.8863636,4.72727273 Z" fill="#4880EA"></path>
+                                                <path id="Combined-Shape" d="M13.5909091,1.77272727 C20.4442608,1.77272727 26,7.19618701 26,13.8863636 C26,20.5765403 20.4442608,26 13.5909091,26 C6.73755742,26 1.18181818,20.5765403 1.18181818,13.8863636 C1.18181818,13.540626 1.19665566,13.1982714 1.22574292,12.8598734 L6.30410592,12.859962 C6.25499466,13.1951893 6.22958398,13.5378796 6.22958398,13.8863636 C6.22958398,17.8551125 9.52536149,21.0724191 13.5909091,21.0724191 C17.6564567,21.0724191 20.9522342,17.8551125 20.9522342,13.8863636 C20.9522342,9.91761479 17.6564567,6.70030817 13.5909091,6.70030817 C13.2336969,6.70030817 12.8824272,6.72514561 12.5388136,6.77314791 L12.5392575,1.81561642 C12.8859498,1.78721495 13.2366963,1.77272727 13.5909091,1.77272727 Z" fill="url(#linearGradient-1)"></path>
+                                                <rect id="Rectangle" x="0" y="0" width="7.68181818" height="7.68181818"></rect>
+                                                <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="7.68181818" height="7.68181818"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h2 class="brand-text mb-0">Frest</h2>
+                    </a></li>
+                <li class="nav-item d-none d-xl-block nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="toggle-icon bx bx-disc font-medium-4 primary" data-ticon="bx-disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a href="index.html"><i class="bx bx-home"></i><span class="menu-title" data-i18n="">Frest Admin</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-introduction.html"><i class="bx bx-align-justify"></i><span class="menu-title" data-i18n="">Introduction</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-license.html"><i class="bx bx-shield"></i><span class="menu-title" data-i18n="">License</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-folder-structure.html"><i class="bx bx-folder"></i><span class="menu-title" data-i18n="">Folder Structure</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-gulp.html"><i class="bx bx-cog"></i><span class="menu-title" data-i18n="">Gulp Building Tools</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-styles-customization.html"><i class="bx bx-check-square"></i><span class="menu-title" data-i18n="">Styles Customization</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-javascript-usage.html"><i class="bx bx-file-blank"></i><span class="menu-title" data-i18n="">JavaScript Usage</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-html-structure.html"><i class="bx bx-code"></i><span class="menu-title" data-i18n="">HTML Structure</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-template-customization.html"><i class="bx bx-cog"></i><span class="menu-title" data-i18n="">Template Customization</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-layout"></i><span class="menu-title" data-i18n="">Laravel Documentation</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-laravel-folder-structure.html">Laravel Folder Structure</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-installation.html">Laravel Installation</a>
+                        </li>
+                        <li class="active"><a class="menu-item" href="documentation-laravel-integration.html">Laravel Integration</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-passport.html">Laravel Passport</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-sanctum.html">Laravel Sanctum</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-localization.html">Laravel Localization</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-ui.html">Laravel UI</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-menu.html">Laravel Menu</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-search.html">Laravel Search</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-acl.html">Laravel ACL</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-homestead.html">Laravel Homestead</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-sail-docker.html">Laravel Sail &amp; Docker</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-faq.html">Laravel FAQs</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-apps.html"><i class="bx bx-server"></i><span class="menu-title" data-i18n="">Apps</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-layout"></i><span class="menu-title" data-i18n="">Layouts</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-1-column.html">1 Column</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-2-columns.html">2 Column</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-left-sidebar.html">Content Left Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-right-sidebar.html">Content Right Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-detached-left-sidebar.html">Content Detached Left Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-detached-right-sidebar.html">Content Detached Right Sidebar</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-faq.html"><i class="bx bx-help-circle"></i><span class="menu-title" data-i18n="">FAQ</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-starter-kit.html"><i class="bx bxs-zap"></i><span class="menu-title" data-i18n="">Starter Kit</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bxs-grid"></i><span class="menu-title" data-i18n="">UI</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-card.html">Cards</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-colors.html">Colors</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-icons.html">Icons</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-widgets.html">Widgets</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-box"></i><span class="menu-title" data-i18n="">Components</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-components.html">Components</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-extra-components.html">Extra Components</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-copy"></i><span class="menu-title" data-i18n="">Forms</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-form-elements.html">Form Elements</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-layouts.html">Form Layouts</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-wizard.html">Form Wizard</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-repeater.html">Form Repeater</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-validation.html">Form Validation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-server"></i><span class="menu-title" data-i18n="">Tables</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-bootstrap-tables.html">Tables</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-datatables.html">Data Tables</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#.html"><i class="bx bx-bar-chart"></i><span class="menu-title" data-i18n="">Charts</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-charts-apex.html">Apex Chart</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-charts-chartjs.html">Chart JS</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-charts-chartist.html">Chartist Js</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-maps.html"><i class="bx bx-map-alt"></i><span class="menu-title" data-i18n="">Maps</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-extensions.html"><i class="bx bx-edit-alt"></i><span class="menu-title" data-i18n="">Extensions</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-bookmark"></i><span class="menu-title" data-i18n="">Other</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-sources-credits.html">Sources &amp; Credits</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-notes.html">Notes</a>
+                        </li>
+                        <li><a class="menu-item" href="https://pixinvent.ticksy.com/">Support</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="app-content content">
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-12 mb-1">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h5 class="content-header-title float-left pr-1 mb-0">Laravel Integration</h5>
+                            <div class="breadcrumb-wrapper">
+                                <ol class="breadcrumb p-0 mb-0">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">Laravel Integration
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-body">
+                <!-- configuration -->
+                <div class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Configuration</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>To configuration Options in details:</p>
+                                <div class="alert bg-rgba-primary">
+                                    You can change configuration options from config -> custom.php file which can be effected for all pages in
+                                    templates.
+                                    For Page Level Configuration you can change variable values in App -> Http -> Controller -> {Controller File}
+                                    file.
+                                </div>
+                                <!-- configuration options -->
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Key</th>
+                                            <th scope="col">Possible Options</th>
+                                            <th scope="col">Details</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>mainLayoutType</td>
+                                            <td>vertical-menu,horizontal-menu,vertical-menu-boxicons</td>
+                                            <td>To switch vertical/horizontal/vertical-boxicons layout. By defaul this will work with vertical layout.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>theme</td>
+                                            <td>light (default) / dark / semi dark</td>
+                                            <td>Set between light theme, dark theme & semi-dark theme.
+                                                <code>(note: semi-dark not applicable for horizontal-menu)</code>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>isContentSidebar</td>
+                                            <td>true/false(default)</td>
+                                            <td>There are two types of page layouts with content sidebar or without content sidebar. e.g: email App is
+                                                with content sidebar page layouts)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>pageHeader</td>
+                                            <td>true/false(default)</td>
+                                            <td>This option is used to show breadcrumb.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bodyCustomClass</td>
+                                            <td colspan="2">Using this variable, you can add your own custom class to include
+                                                <code>&lt;body&gt;</code> tag.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>navbarBgColor</td>
+                                            <td>bg-white(default for vertical-menu),bg-primary(default horizontal-menu),
+                                                bg-success,bg-danger,bg-info,bg-warning,bg-dark</td>
+                                            <td>Change the color of the navbar using available options.
+                                                <code>note: navbar color only visible when you scroll down the page atlease 20px.</code>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>navbarType</td>
+                                            <td>fixed,static,hidden</td>
+                                            <td>Change how the navbar is displayed. <code>note: horizontal-menu doesn't support hidden.</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td>isMenuCollapsed</td>
+                                            <td>true/false(default)</td>
+                                            <td>Toggle display of sidebar collapse or expand.
+                                                <code>note: horizontal-menu does not support this options.</code>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>footerType</td>
+                                            <td>fixed,static,hidden</td>
+                                            <td>Change how the footer is displayed.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>templateTitle</td>
+                                            <td>'Frest'</td>
+                                            <td>You can change template name using this option. Frest(default)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>isCustomizer</td>
+                                            <td>true(default)/false</td>
+                                            <td>You can add or remove theme customizer in template.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>isCardShadow</td>
+                                            <td>true(default)/false</td>
+                                            <td>You can simply add or remove card shadow in whole template.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>isScrollTop</td>
+                                            <td>true(default)/false</td>
+                                            <td>You can hide/show scroll to top button.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>defaultLanguage</td>
+                                            <td>en(default),pt,fr,de</td>
+                                            <td>To set your default language in template.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>direction</td>
+                                            <td>
+                                                env('MIX_CONTENT_DIRECTION', 'ltr')(default), env('MIX_CONTENT_DIRECTION', 'rtl')
+                                            </td>
+                                            <td>To switch ltr/rtl direction of the layout. By defaul this will work with LTR layout.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="alert bg-rgba-primary">
+                                    You can change the sidebar active menu color and Template title color directly through override $primary
+                                    variable.
+                                    You can find this variable in below mention file.<br>
+                                    <code>frest-laravel-admin-template/resources/sass/core/variables/_components-variables.scss</code>
+                                </div>
+                                <!-- page level configurations -->
+                                <h6>Change for Page Level Configuration :</h6>
+                                <p>If you want to add Page level configuration for layout, you need to to set array for page configuration in
+                                    <code>app -> Http -> Controller -> {Controller file}</code> and send it to your view.
+                                </p>
+                                <pre class="language-php">
+          <code class="language-php">
+            public function {functionName}(){
+              $pageConfigs = [
+                  'theme' => 'dark',
+                  'navbarColor' => 'bg-primary',
+                  'navbarType' => 'static',
+                  'footerType' => 'sticky',
+                  'bodyClass' => 'testClass'
+              ];
+
+              return view('/pages/testPage', [
+                  'pageConfigs' => $pageConfigs
+              ]);
+          }
+          </code>
+        </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  create new page-->
+                <div class="section" id="new-page">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Create New Page</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <h6>How to add New Page:</h6>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Create New View with <code>blade.php</code> extenstion.</li>
+                                    <li class="list-group-item">Create Controller for different methods related to page. (Optional. You can use
+                                        default controller also.)</li>
+                                    <li class="list-group-item">Set Path in <code>routes/web.php</code> file to serve the page on the browser.
+                                    </li>
+                                    <li class="list-group-item">Add page link to
+                                        <code>resources -> data -> menus-> vertical-menu.json, horizontal-menu.json and vertical-menu-boxicons</code>
+                                        files to display menu item in sidebar/menu.
+                                    </li>
+                                    <li class="list-group-item">Add page link to <code>public -> data -> template-list.json</code> file to display
+                                        in navbar search option.</li>
+                                    <li class="list-group-item">Add page name to
+                                        <code>resources -> lang -> en{all language folder} -> locale.php</code> file to display in multi language.
+                                    </li>
+                                </ul>
+
+
+                                <h6 class="my-2">Steps to add a new page:</h6>
+                                <p><strong>Step 1: </strong> Create a file with the extension <code>.blade.php</code> under the
+                                    <code>resources -> views -> pages</code> directory. Let's create a testPage for an example with filename
+                                    testPage.blade.php and placing the below code in that file.
+                                </p>
+                                <pre class="language-php mb-1">
+          <code class="language-php">
+    @extends('layouts/contentLayoutMaster') // choose any one option {contentLayoutMaster/fullLayoutMaster}
+
+            @section('title', 'Content Layout')  // change title accrodingly
+
+            @section('content')
+
+            //page content
+
+            @endsection
+          </code>
+        </pre>
+                                <p><strong>Step 2: </strong>To add new controller, use below command :</p>
+                                <pre class="language-php mb-1">
+          <code class="language-php">
+            php artisan make:controller {ControllerName} {-r}
+          </code>
+        </pre>
+                                <div class="alert bg-rgba-warning">Add Configuration in controller as described <a href="#rtl">here</a>.</div>
+                                <h6>To add breadcrumbs:</h6>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              $breadcrumbs = [
+                  ['link'=>"/",'name'=>"Home"],['link'=>"/",'name'=>"Page"], ['name'=>"Content Layout"]
+              ];
+
+              return view('/pages/test-page', [
+                  'breadcrumbs' => $breadcrumbs
+              ]);
+            </code>
+          </pre>
+                                <p><strong>Step 3: </strong>
+                                    After creating file and controller you need to declare its route where it can be served on the browser,
+                                    suppose you want created page to be serve on the route http://localhost:8080/testPage . To access this page
+                                    define its routes in the <code>resources -> web.php</code> file.</p>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              Route::get('/testPage', function () {
+                return view('pages/testPage');
+            });
+            </code>
+          </pre>
+                                <p><strong>Step 4: </strong>
+                                    After defining the route, add page link to sidebar at
+                                    <code>resources -> data -> menus -> verticalMenu.json / horizontalMenu.json /vertical-menu-boxicons</code>
+                                    file.
+                                </p>
+                                <p><strong>Option 1: </strong>To add item in menu.</p>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              {"url":"/testPage", "name":"Test Page", "i18n":"Test Page", "icon":"feather icon-file-text"},
+            </code>
+          </pre>
+                                <p><strong>Option 2: </strong>To add item as a sub menu item.</p>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              {"url":"#", "name":"Main menu", "i18n":"Main Menu", "icon":"feather icon-file-text",
+                "submenu": [
+                  {"url":"submenu1", "name":"Submenu 1", "i18n":"Submenu1", "icon":"feather icon-circle"},
+                  {"url":"submenu2", "name":"Submenu 2", "i18n":"Submenu2", "icon":"feather icon-circle"}
+                ]
+              },
+            </code>
+          </pre>
+                                <p><strong>Step 5: </strong>
+                                    For page searching options in navbar search box, add page link in
+                                    <code>public -> data -> template-list.json</code> file.
+                                </p>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              {"name":"Test Page", "url":"/testPage","icon":"feather icon-file-text"},
+            </code>
+          </pre>
+                                <p><strong>Step 6: </strong>Add page name to
+                                    <code>resources -> lang -> en{all language folder} -> locale.php</code> file to display in multi language.
+                                </p>
+                                <pre class="language-php mb-1">
+            <code class="language-php">
+              "Dashboard"=> "Instrumententafel",
+              "Modern"=> "Modern",
+            </code>
+          </pre>
+                                <p>
+                                    After completing these above steps you need to run the command <code>npm run dev</code> or
+                                    <code>npm run watch</code> command in the project directory. After running this process you need to run the
+                                    command <code>php artisan serve</code>. It will serve your app on the localhost.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- RTL -->
+                <div class="section" id="rtl">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">RTL</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>To create RTL layout. There are two way to do this.</p>
+                                <h6>First Way</h6>
+                                <p>Change <code>MIX_CONTENT_DIRECTION</code> variable value from <code>ltr</code> to <code>rtl</code> in
+                                    <code>.env</code> file
+                                </p>
+                                <h6>Second way</h6>
+                                <p>Change configuration option from <code>config -> custom.php</code> file.</p>
+                                <p>Update <code>direction</code> value from <code>'direction' => env('MIX_CONTENT_DIRECTION', 'ltr'),</code> to
+                                    <code>'direction' => env('MIX_CONTENT_DIRECTION', 'rtl'),</code>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0"><span class="float-left d-inline-block">2021 &copy; PIXINVENT</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a></span></p>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
+
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/customizer.js"></script>
+    <script src="../../../app-assets/js/scripts/documentation.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/ui/prism.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/ui/prism-treeview.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/ui/affix.js" type="text/javascript"></script>
+</body>
+
+</html>

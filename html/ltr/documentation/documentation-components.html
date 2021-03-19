@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Component Documentation - Frest - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../app-assets/images/ico/apple-icon-60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../app-assets/images/ico/apple-icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../app-assets/images/ico/apple-icon-152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN Frest CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- link(rel='stylesheet', type='text/css', href='../../../app-assets/css'+rtl+'/core/menu/menu-types/vertical-overlay-menu.css')-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/ui/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/documentation.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END Custom CSS-->
+</head>
+
+<body class="vertical-layout vertical-menu-modern content-right-sidebar  fixed-navbar" data-open="click" data-menu="vertical-menu-modern" data-col="content-right-sidebar">
+
+    <!-- fixed-top-->
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu fixed-top navbar-light navbar-shadow">
+        <div class="navbar-wrapper">
+            <div class="navbar-container content float-right">
+                <div class="collapse navbar-collapse" id="navbar-mobile">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="btn btn-outline-secondary btn-doc-header" href="https://www.pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/landing-page/" target="_blank"><i class="bx bx-layout mr-50"></i>Live Preview</a></li>
+                        <li class="nav-item"><a class="btn btn-success btn-doc-header" href="https://pixinvent.ticksy.com" target="_blank"><i class="bx bx-buoy text-white mr-50"></i>Support</a></li>
+                        <li class="nav-item"><a class="btn btn-warning btn-doc-header" href="https://1.envato.market/frest_admin"><i class="bx bx-cart text-white mr-50"></i>Purchase</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand">
+                        <div class="brand-logo">
+                            <svg class="logo" width="26px" height="26px" viewbox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>icon</title>
+                                <defs>
+                                    <lineargradient id="linearGradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
+                                        <stop stop-color="#5A8DEE" offset="0%"></stop>
+                                        <stop stop-color="#699AF9" offset="100%"></stop>
+                                    </lineargradient>
+                                    <lineargradient id="linearGradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop stop-color="#FDAC41" offset="0%"></stop>
+                                        <stop stop-color="#E38100" offset="100%"></stop>
+                                    </lineargradient>
+                                </defs>
+                                <g id="Sprite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="sprite" transform="translate(-69.000000, -61.000000)">
+                                        <g id="Group" transform="translate(17.000000, 15.000000)">
+                                            <g id="icon" transform="translate(52.000000, 46.000000)">
+                                                <path id="Combined-Shape" d="M13.5909091,1.77272727 C20.4442608,1.77272727 26,7.19618701 26,13.8863636 C26,20.5765403 20.4442608,26 13.5909091,26 C6.73755742,26 1.18181818,20.5765403 1.18181818,13.8863636 C1.18181818,13.540626 1.19665566,13.1982714 1.22574292,12.8598734 L6.30410592,12.859962 C6.25499466,13.1951893 6.22958398,13.5378796 6.22958398,13.8863636 C6.22958398,17.8551125 9.52536149,21.0724191 13.5909091,21.0724191 C17.6564567,21.0724191 20.9522342,17.8551125 20.9522342,13.8863636 C20.9522342,9.91761479 17.6564567,6.70030817 13.5909091,6.70030817 C13.2336969,6.70030817 12.8824272,6.72514561 12.5388136,6.77314791 L12.5392575,1.81561642 C12.8859498,1.78721495 13.2366963,1.77272727 13.5909091,1.77272727 Z"></path>
+                                                <path id="Combined-Shape" d="M13.8863636,4.72727273 C18.9447899,4.72727273 23.0454545,8.82793741 23.0454545,13.8863636 C23.0454545,18.9447899 18.9447899,23.0454545 13.8863636,23.0454545 C8.82793741,23.0454545 4.72727273,18.9447899 4.72727273,13.8863636 C4.72727273,13.5378966 4.74673291,13.1939746 4.7846258,12.8556254 L8.55057141,12.8560055 C8.48653249,13.1896162 8.45300462,13.5340745 8.45300462,13.8863636 C8.45300462,16.887125 10.8856023,19.3197227 13.8863636,19.3197227 C16.887125,19.3197227 19.3197227,16.887125 19.3197227,13.8863636 C19.3197227,10.8856023 16.887125,8.45300462 13.8863636,8.45300462 C13.529522,8.45300462 13.180715,8.48740462 12.8430777,8.55306931 L12.8426531,4.78608796 C13.1851829,4.7472336 13.5334422,4.72727273 13.8863636,4.72727273 Z" fill="#4880EA"></path>
+                                                <path id="Combined-Shape" d="M13.5909091,1.77272727 C20.4442608,1.77272727 26,7.19618701 26,13.8863636 C26,20.5765403 20.4442608,26 13.5909091,26 C6.73755742,26 1.18181818,20.5765403 1.18181818,13.8863636 C1.18181818,13.540626 1.19665566,13.1982714 1.22574292,12.8598734 L6.30410592,12.859962 C6.25499466,13.1951893 6.22958398,13.5378796 6.22958398,13.8863636 C6.22958398,17.8551125 9.52536149,21.0724191 13.5909091,21.0724191 C17.6564567,21.0724191 20.9522342,17.8551125 20.9522342,13.8863636 C20.9522342,9.91761479 17.6564567,6.70030817 13.5909091,6.70030817 C13.2336969,6.70030817 12.8824272,6.72514561 12.5388136,6.77314791 L12.5392575,1.81561642 C12.8859498,1.78721495 13.2366963,1.77272727 13.5909091,1.77272727 Z" fill="url(#linearGradient-1)"></path>
+                                                <rect id="Rectangle" x="0" y="0" width="7.68181818" height="7.68181818"></rect>
+                                                <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="7.68181818" height="7.68181818"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h2 class="brand-text mb-0">Frest</h2>
+                    </a></li>
+                <li class="nav-item d-none d-xl-block nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="toggle-icon bx bx-disc font-medium-4 primary" data-ticon="bx-disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a href="index.html"><i class="bx bx-home"></i><span class="menu-title" data-i18n="">Frest Admin</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-introduction.html"><i class="bx bx-align-justify"></i><span class="menu-title" data-i18n="">Introduction</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-license.html"><i class="bx bx-shield"></i><span class="menu-title" data-i18n="">License</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-folder-structure.html"><i class="bx bx-folder"></i><span class="menu-title" data-i18n="">Folder Structure</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-gulp.html"><i class="bx bx-cog"></i><span class="menu-title" data-i18n="">Gulp Building Tools</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-styles-customization.html"><i class="bx bx-check-square"></i><span class="menu-title" data-i18n="">Styles Customization</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-javascript-usage.html"><i class="bx bx-file-blank"></i><span class="menu-title" data-i18n="">JavaScript Usage</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-html-structure.html"><i class="bx bx-code"></i><span class="menu-title" data-i18n="">HTML Structure</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-template-customization.html"><i class="bx bx-cog"></i><span class="menu-title" data-i18n="">Template Customization</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-layout"></i><span class="menu-title" data-i18n="">Laravel Documentation</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-laravel-folder-structure.html">Laravel Folder Structure</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-installation.html">Laravel Installation</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-integration.html">Laravel Integration</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-passport.html">Laravel Passport</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-sanctum.html">Laravel Sanctum</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-localization.html">Laravel Localization</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-ui.html">Laravel UI</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-menu.html">Laravel Menu</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-search.html">Laravel Search</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-acl.html">Laravel ACL</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-homestead.html">Laravel Homestead</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-sail-docker.html">Laravel Sail &amp; Docker</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-laravel-faq.html">Laravel FAQs</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-apps.html"><i class="bx bx-server"></i><span class="menu-title" data-i18n="">Apps</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-layout"></i><span class="menu-title" data-i18n="">Layouts</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-1-column.html">1 Column</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-2-columns.html">2 Column</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-left-sidebar.html">Content Left Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-right-sidebar.html">Content Right Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-detached-left-sidebar.html">Content Detached Left Sidebar</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-content-detached-right-sidebar.html">Content Detached Right Sidebar</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-faq.html"><i class="bx bx-help-circle"></i><span class="menu-title" data-i18n="">FAQ</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-starter-kit.html"><i class="bx bxs-zap"></i><span class="menu-title" data-i18n="">Starter Kit</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bxs-grid"></i><span class="menu-title" data-i18n="">UI</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-card.html">Cards</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-colors.html">Colors</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-icons.html">Icons</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-widgets.html">Widgets</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-box"></i><span class="menu-title" data-i18n="">Components</span></a>
+                    <ul class="menu-content">
+                        <li class="active"><a class="menu-item" href="documentation-components.html">Components</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-extra-components.html">Extra Components</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-copy"></i><span class="menu-title" data-i18n="">Forms</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-form-elements.html">Form Elements</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-layouts.html">Form Layouts</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-wizard.html">Form Wizard</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-repeater.html">Form Repeater</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-form-validation.html">Form Validation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-server"></i><span class="menu-title" data-i18n="">Tables</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-bootstrap-tables.html">Tables</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-datatables.html">Data Tables</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#.html"><i class="bx bx-bar-chart"></i><span class="menu-title" data-i18n="">Charts</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-charts-apex.html">Apex Chart</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-charts-chartjs.html">Chart JS</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-charts-chartist.html">Chartist Js</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="documentation-maps.html"><i class="bx bx-map-alt"></i><span class="menu-title" data-i18n="">Maps</span></a>
+                </li>
+                <li class=" nav-item"><a href="documentation-extensions.html"><i class="bx bx-edit-alt"></i><span class="menu-title" data-i18n="">Extensions</span></a>
+                </li>
+                <li class=" nav-item"><a href="#"><i class="bx bx-bookmark"></i><span class="menu-title" data-i18n="">Other</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="documentation-sources-credits.html">Sources &amp; Credits</a>
+                        </li>
+                        <li><a class="menu-item" href="documentation-notes.html">Notes</a>
+                        </li>
+                        <li><a class="menu-item" href="https://pixinvent.ticksy.com/">Support</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="app-content content">
+        <div class="sidebar-right sidebar-sticky">
+            <div class="sidebar">
+                <div class="pt-2 pr-2">
+                    <div class="sidebar-content component-sidebar p-1" data-spy="affix" data-offset-top="-77">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="card-title">Components Navigation</h6>
+                            </div>
+                            <div class="card-content" aria-expanded="true">
+                                <div class="card-body">
+                                    <nav id="sidebar-page-navigation">
+                                        <ul id="page-navigation-list" class="nav">
+                                            <li class="nav-item"><a class="nav-link active" href="#alert">Alert</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#buttons">Buttons</a>
+                                            <li class="nav-item"><a class="nav-link" href="#breadcrumbs">Breadcrumbs</a>
+                                            <li class="nav-item"><a class="nav-link" href="#carousel">Carousel</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#collapse">Collapse</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#dropdown">Dropdown</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#listgroup">List Group</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#modal">Modal</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#pagination">Pagination</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#navs">Navs</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#tabs">Tabs</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#pills">Pills</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#tooltips">Tooltips</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#popovers">Popovers</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#badges">Badges</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#pill-badges">Pill badges</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#progress">Progress</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#media-object">Media Object</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#spinners">Spinners</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#toast">Toasts</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <h6 class="border-top-grey border-top-lighten-2 p-1 mt-1 mb-0">
+                                    <a class="nav-link display-block text-muted" href="#top">Back to top
+                                        <i class="float-right bx bx-up-arrow-circle font-medium-3"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-left">
+            <div class="content-wrapper">
+                <div class="content-header row">
+                    <div class="content-header-left col-12 mb-1">
+                        <div class="row breadcrumbs-top">
+                            <div class="col-12">
+                                <h5 class="content-header-title float-left pr-1 mb-0">Component Documentation</h5>
+                                <div class="breadcrumb-wrapper">
+                                    <ol class="breadcrumb p-0 mb-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item active">Component Documentation
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-body">
+                    <!-- Alert -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="alert" class="card-title">Alert</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+                                        alert messages.</p>
+                                </div>
+                                <p class="content-group">Check below table to use alerts with different types and designs.</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Alert Type</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Default Alert</strong></td>
+                                            <td><code>.alert-{colorName}</code></td>
+                                            <td>Add <code>.alert-{colorName}</code> along with <code>.alert</code> for any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like to add
+                                                for alert.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Alert Title</strong></td>
+                                            <td><code>.alert-heading</code></td>
+                                            <td>Add this class inside of <code>.alert</code> wrapper to create alert with title.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Dismissible Alerts</strong></td>
+                                            <td><code>.alert-dismissible</code></td>
+                                            <td>Add <code>.alert-dismissible</code> along with <code>.alert</code> for extra padding to the right of the
+                                                alert and positions the <code>.close</code> button. You can use
+                                                the
+                                                <code>data-dismiss="alert"</code> attribute also.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Alerts with icons</strong></td>
+                                            <td>N/A</td>
+                                            <td>Just add icon before your alert text to create a alert with icon.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Alerts with Border</strong></td>
+                                            <td><code>.border-{colorName}</code></td>
+                                            <td>Add <code>.border-{colorName}</code> along with <code>.alert</code> for any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like to add
+                                                for alert with border.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Alerts With Light Background Color</strong></td>
+                                            <td><code>.bg-rgba-{colorName}</code></td>
+                                            <td>Add <code>.bg-rgba-{colorName}</code> along with <code>.alert</code> for any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like to add
+                                                for alerts with light background color.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Link</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/alerts/" target="_blank">https://getbootstrap.com/docs/4.5/components/alerts/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-alerts.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-alerts.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Alert -->
+                    <!-- Buttons -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="buttons" class="card-title">Buttons</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Buttons include support for a handful of contextual variations, sizes, states, and more.
+                                    Group a series of buttons together on a single line with the button group.</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Buttons options</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Basic button</strong></td>
+                                            <td><code>.btn-{colorName}</code></td>
+                                            <td>Add <code>.btn-{colorName}</code> along with <code>.btn</code> for any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like
+                                                to use for button.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Outline button</strong></td>
+                                            <td><code>.btn-outline-{colorName}</code></td>
+                                            <td>Add <code>.btn-outline-{colorName}</code> along with <code>.btn</code> for desired color border to
+                                                button.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button with shadow</strong></td>
+                                            <td><code>.shadow</code></td>
+                                            <td>Add <code>.shadow</code> along with <code>.btn</code> for button with shadow.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button with glow</strong></td>
+                                            <td><code>.glow</code></td>
+                                            <td>Add <code>.glow</code> along with <code>.btn</code> & <code>.btn-{colorName}</code> for button with
+                                                glow.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button with light background</strong></td>
+                                            <td><code>.btn-light-{colorName}</code></td>
+                                            <td>Add <code>.btn-light-{colorName}</code> along with <code>.btn</code> for light colored button
+                                                background.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button with round</strong></td>
+                                            <td><code>.round</code></td>
+                                            <td>Add <code>.round</code> along with <code>.btn</code> for round button.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button with icon only</strong></td>
+                                            <td><code>.btn-icon</code></td>
+                                            <td>Add <code>.btn-icon</code> along with <code>.btn</code> for button with icon.<br>
+                                                <strong>Note:</strong> you can only use <code>.btn-icon</code> when you want icon without text in your
+                                                button.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button group</strong></td>
+                                            <td><code>.btn-group</code></td>
+                                            <td>Add <code>.btn-group</code> to wrapper of a series of buttons together on a single line with the button
+                                                group.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button Size</strong></td>
+                                            <td><code>.btn-{lg | sm}</code></td>
+                                            <td>Add <code>.btn-{lg | sm}</code> along with <code>.btn</code> for fancy larger or smaller button size.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button block</strong></td>
+                                            <td><code>.btn-block</code></td>
+                                            <td>Add <code>.btn-block</code> along with <code>.btn</code> to create block level buttons—those that span
+                                                the full width of a parent.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Vertical button group</strong></td>
+                                            <td><code>.btn-group-vertical</code></td>
+                                            <td>Add <code>.btn-group-vertical</code> to wrapper of a series of vertical button group.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Buttons</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">https://getbootstrap.com/docs/4.5/components/buttons/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Button Groups</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/button-group/" target="_blank">https://getbootstrap.com/docs/4.5/components/button-group/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-buttons-basic.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-buttons-basic.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Buttons -->
+                    <!-- Breadcrumbs -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="breadcrumbs" class="card-title">Breadcrumbs</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p>
+                                    Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
+                                </p>
+                                <h6>HTML snippent:</h6>
+                                <pre class="language-html">
+        <code class="language-html">
+        &lt;nav aria-label=&quot;breadcrumb&quot;&gt;
+          &lt;ol class=&quot;breadcrumb&quot;&gt;
+            &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class="bx bx-home"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Library&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;breadcrumb-item active&quot; aria-current=&quot;page&quot;&gt;Data&lt;/li&gt;
+          &lt;/ol&gt;
+        &lt;/nav&gt;
+        </code>
+      </pre>
+                                <p class="mb-25 mt-1">Below have options that you can use with <code>.breadcrumb</code> :</p>
+                                <p><strong>Note:</strong> Add mentioned classes in &lt;ol&gt; element.</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Beadcrumb options</th>
+                                            <th>Class</th>
+                                            <th>Discription</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Breadcrumb Divider Icon</strong></td>
+                                            <td><code>.breadcrumb-divider</code></td>
+                                            <td>To add breadcrumb divider icon with active link fill.
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Breadcrumb rounded</strong></td>
+                                            <td><code>.rounded-pill</code></td>
+                                            <td>To add breadcrumb rounded with shadow.
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/breadcrumb/" target="_blank">https://getbootstrap.com/docs/4.5/components/breadcrumb/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-breadcrumbs.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-breadcrumbs.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Breadcrumbs -->
+                    <!-- Carousel -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="carousel" class="card-title">Carousel</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">A slideshow component for cycling through elements—images or slides of text—like a
+                                    carousel. In browsers where the Page Visibility API is supported, the carousel will avoid sliding when the
+                                    webpage is not visible to the user (such as when the browser tab is inactive, the browser window is minimized,
+                                    etc.).</p>
+                                <p><strong>Nested carousels are not supported.</strong></p>
+                                <p>Below have options that you can use with carousel :</p>
+                                <ul type="i">
+                                    <li>Carousel with caption</li>
+                                    <li>Interval Options</li>
+                                    <li>Disable on hover Pause</li>
+                                    <li>Crossfade effect, etc..</li>
+                                </ul>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">https://getbootstrap.com/docs/4.5/components/carousel/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-carousel.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-carousel.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Carousel -->
+                    <!-- Collapse -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="collapse" class="card-title">Collapse</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">The Bootstrap collapse plugin allows you to toggle content on your pages with a few
+                                    classes thanks to some helpful JavaScript.</p>
+                                <p>You can use a link with the <code>href</code> attribute, or a button with the <code>data-target</code>
+                                    attribute.</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Collapse Options</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Collapse Wrapper</strong></td>
+                                            <td><code>.collapsible</code></td>
+                                            <td>Add mentioned class as wrapper of collapse-headers to get template specific design.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Collapse Icons</strong></td>
+                                            <td><code>.collapse-icon</code></td>
+                                            <td>
+                                                Add mentioned class along with <code>.collapsible</code> to get icons on right side of collpase.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Animate Collapse Icons</strong></td>
+                                            <td><code>.accordion-icon-rotate</code></td>
+                                            <td>
+                                                Add mentioned class with <code>.collapsible</code> to animation to collapse icons.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Collapse hover</strong></td>
+                                            <td><code>.card-hover</code></td>
+                                            <td>Add mentioned class along with <code>.accordion</code> to open accordion on hover.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/collapse/" target="_blank">https://getbootstrap.com/docs/4.5/components/collapse/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-collapse.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-collapse.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Collapse -->
+                    <!-- Dropdown -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="dropdown" class="card-title">Dropdown</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Dropdowns are toggleable, contextual overlays for displaying lists of links and more.
+                                    They’re made interactive with the included Bootstrap dropdown JavaScript plugin.</p>
+                                <h6>Example Code:</h6>
+                                <pre class="language-HTML">
+        <code class="language-HTML">
+              &lt;div class="dropdown"&gt;
+                &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                  Dropdown button
+                &lt;/button&gt;
+                &lt;div class="dropdown-menu" aria-labelledby="dropdownMenuButton"&gt;
+                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;
+                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;
+                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        </code>
+      </pre>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Dropdown Options</th>
+                                            <th>Class</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Dropdown with icon</strong></td>
+                                            <td><code>.dropdown-icon-wrapper</code></td>
+                                            <td>Add mentioned class in wrapper of the button to get dropdown with icon.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Dropdown with Emojis</strong></td>
+                                            <td><code>.dropdown-item-emoji</code></td>
+                                            <td>Use mentioned class in <code>.dropdown-item</code> for font-size and spacing of emojis.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/dropdowns/" target="_blank">https://getbootstrap.com/docs/4.5/components/dropdowns/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-dropdowns.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-dropdowns.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Dropdown -->
+                    <!-- List Group -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="listgroup" class="card-title">List Group</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">List groups are a flexible and powerful component for displaying not only simple lists of
+                                    elements, but complex ones with custom content.</p>
+                                <p>The most basic list group is simply an unordered list with list items, and the proper classes. Build upon it
+                                    with the options that follow, or your own CSS as needed.</p>
+                                <h6>Example Code:</h6>
+                                <pre class="language-HTML">
+  <code class="language-HTML">
+      &lt;ul class="list-group"&gt;
+          &lt;li class="list-group-item"&gt;Cras justo odio&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;Dapibus ac facilisis in&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;Morbi leo risus&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;Porta ac consectetur ac&lt;/li&gt;
+          &lt;li class="list-group-item"&gt;Vestibulum at eros&lt;/li&gt;
+      &lt;/ul&gt;
+  </code>
+            </pre>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/list-group/" target="_blank">https://getbootstrap.com/docs/4.5/components/list-group/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-list-group.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-list-group.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ List Group -->
+                    <!-- Modals -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="modal" class="card-title">Modal</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Modals are streamlined, but flexible, dialog prompts with the minimum required
+                                    functionality and smart defaults.</p>
+                                <h6>Example Code:</h6>
+                                <pre class="language-HTML">
+      <code class="language-HTML">
+        &lt;div class="modal" tabindex="-1" role="dialog"&gt;
+          &lt;div class="modal-dialog"&gt;
+            &lt;div class="modal-content"&gt;
+              &lt;div class="modal-header"&gt;
+                  &lt;h5 class="modal-title"&gt;Modal title&lt;/h5&gt;
+                &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+                  &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+              &lt;div class="modal-body"&gt;
+                &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div class="modal-footer"&gt;
+                &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+                &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      </code>
+      </pre>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Modal options</th>
+                                            <th>Class</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Modal header background color</strong></td>
+                                            <td><code>.bg-*</code></td>
+                                            <td>Use any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like
+                                                to use for modal header background.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Modal borderless</strong></td>
+                                            <td><code>.modal-borderless</code></td>
+                                            <td>Add mentioned class along with <code>.modal</code> to create modal without border.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Modal</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/modal/" target="_blank">https://getbootstrap.com/docs/4.5/components/modal/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-modals.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-modals.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modals -->
+                    <!-- Pagination -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="pagination" class="card-title">Pagination</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Documentation and examples for showing pagination to indicate a series of related content
+                                    exists across multiple pages.</h5>
+                                <p>The pagination component should be wrapped in a <code>&lt;nav&gt;</code> element to identify it as a
+                                    navigation
+                                    section to screen readers and other assistive technologies. For example, if the pagination component is used
+                                    to
+                                    navigate between a set of search results, an appropriate label could be
+                                    <code>aria-label="Search results pages"</code>.
+                                </p>
+                                <p>Below have options that you can use with pagination :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Pagination options</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Pagination previous</strong></td>
+                                            <td><code>.previous</code></td>
+                                            <td>Add <code>.previous</code> along with <code>.page-item</code> for space between indicator and first
+                                                page item only.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pagination next</strong></td>
+                                            <td><code>.next</code></td>
+                                            <td>Add <code>.next</code> along with <code>.page-item</code> for space between indicator and last page
+                                                item only.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pagination without border</strong></td>
+                                            <td><code>.pagination-borderless</code></td>
+                                            <td>Add <code>.pagination-borderless</code> along with <code>.pagination</code> for borderless
+                                                pagination.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pagination position</strong></td>
+                                            <td><code>.justify-content-{left | center | right}</code></td>
+                                            <td>Add <code>.justify-content-{left | center | right}</code> along with <code>.pagination</code> to set
+                                                position of pagination.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pagination sizes</strong></td>
+                                            <td><code>.pagination{sm | lg}</code></td>
+                                            <td>Add <code>.pagination{sm | lg}</code> along with <code>.pagination</code> for small or large size
+                                                pagination.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pagination Colors</strong></td>
+                                            <td><code>pagination-{colorName}</code></td>
+                                            <td>Use any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like to use
+                                                for pagination.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/pagination/" target="_blank">https://getbootstrap.com/docs/4.5/components/pagination/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pagination.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pagination.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Pagination -->
+                    <!-- Navs -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="navs" class="card-title">Navs</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Roll your own navigation style by extending the base <code>.nav</code> component. The
+                                    base
+                                    <code>.nav</code> component is built with flexbox and provide a strong foundation for building all types of
+                                    navigation
+                                    components.</p>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/navs/#base-nav" target="_blank">https://getbootstrap.com/docs/4.5/components/navs/#base-nav</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-navs-component.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-tabs-component.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Navs -->
+                    <!-- Tabs -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="tabs" class="card-title">Tabs</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Takes the basic nav from above and adds the <code>
+                                        .nav-tabs</code> class to generate a tabbed interface. Use them to create tabbable regions and to extend
+                                    navigational tabs.</p>
+                                <p>Below have options that you can use with tabs :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Tabs options</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Basic Tabs</strong></td>
+                                            <td><code>.nav-tabs</code></td>
+                                            <td>Add <code>.nav-tabs</code> along with <code>.nav</code> for basic tabs.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Filled Tabs</strong></td>
+                                            <td><code>.nav-fill</code></td>
+                                            <td>Add <code>.nav-fill</code> along with <code>.nav-tabs</code> to extend the full available width.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Justified Tabs</strong></td>
+                                            <td><code>.nav-justified</code></td>
+                                            <td>Add <code>.nav-justified</code> along with <code>.nav-tabs</code> for equal width elements.
+                                                <strong>Note:</strong> All horizontal space will be occupied by nav links, but unlike the
+                                                <code>.nav-fill</code> above,
+                                                every nav item will be the same width.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Positioning Tabs</strong></td>
+                                            <td><code>.justify-content-{ center | end }</code></td>
+                                            <td>Add class <code>.justify-content-{ center | end }</code> along with <code>.nav-tabs</code> to position
+                                                tab in either center or end.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/navs/#tabs" target="_blank">https://getbootstrap.com/docs/4.5/components/navs/#tabs</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-tabs-component.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-tabs-component.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Tabs -->
+                    <!-- Pills -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="pills" class="card-title">Pills</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Navigation available in Bootstrap share general markup and styles, from the base
+                                    <code>.nav</code> class to the active and disabled states. Swap modifier classes to switch between each style.
+                                </p>
+                                <p>Below have options that you can use with pills :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Pills options</th>
+                                            <th>Class</th>
+                                            <th class="w-50">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Basic Pills</strong></td>
+                                            <td><code>.nav-pills</code></td>
+                                            <td>Add <code>.nav-pills</code> along with <code>.nav</code> for basic pills.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Filled Pills</strong></td>
+                                            <td><code>.nav-fill</code></td>
+                                            <td>Add <code>.nav-fill</code> along with <code>.nav-pills</code> to extend the full available width.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Justified Pills</strong></td>
+                                            <td><code>.nav-justified</code></td>
+                                            <td>Add <code>.nav-justified</code> along with <code>.nav-pills</code> for equal width elements.
+                                                <strong>Note:</strong> All horizontal space will be occupied by nav links, but unlike the
+                                                <code>.nav-fill</code> above,
+                                                every nav item will be the same width.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Positioning Pills</strong></td>
+                                            <td><code>.justify-content-{ center | end }</code></td>
+                                            <td>Add class <code>.justify-content-{ center | end }</code> along with <code>.nav-pills</code> to position
+                                                tab in either center or end.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Vertically Stacked Pills</strong></td>
+                                            <td><code>.flex-column</code></td>
+                                            <td>Add <code>.flex-column</code> along with <code>.nav-pills</code> to make block element and stack them
+                                                vertically.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/navs/#pills" target="_blank">https://getbootstrap.com/docs/4.5/components/navs/#pills</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pills-component.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pills-component.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Pills -->
+                    <!-- Tooltips -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="tooltips" class="card-title">Tooltips</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Tooltips are an updated version, which don’t rely on images, use CSS3 for animations, and
+                                    data-attributes for local title storage.</p>
+
+                                <p>Below have options that you can use with Tooltip :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Tooltip options</th>
+                                            <th>Class / Attributes</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Tooltip Positions</strong></td>
+                                            <td><code>data-placement = { "top" | "bottom" | "right" | "left" }</code></td>
+                                            <td>Use to position tooltip. <strong>Note:</strong> Default: top.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Tooltip Light</strong></td>
+                                            <td><code>.tooltip-light</code></td>
+                                            <td>Use for light background
+                                                colored tooltip.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Tooltip Triggers</strong></td>
+                                            <td><code>data-trigger = { "click" | "hover" | "focus" | "manual" }</code></td>
+                                            <td>Use to trigger with different corresponding state. <strong>Note:</strong> Default: hover.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/tooltips/" target="_blank">https://getbootstrap.com/docs/4.5/components/tooltips/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-tooltips.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-tooltips.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Tooltips -->
+                    <!-- Popovers -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="popovers" class="card-title">Popovers</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Add small overlay content, like those found in iOS, to any element for housing secondary
+                                    information.</p>
+                                <p>Below have options that you can use with Popovers :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Popovers options</th>
+                                            <th>Attributes</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Popovers Positions</strong></td>
+                                            <td><code>data-placement = { "auto" | "top" | "bottom" | "right" | "left" }</code></td>
+                                            <td>Use to position popovers. <strong>Note:</strong> Default: right.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Popovers Triggers</strong></td>
+                                            <td><code>data-trigger = { "click" | "hover" | "focus" | "manual" }</code></td>
+                                            <td>Use to trigger with different corresponding state. <strong>Note:</strong> Default: click.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/popovers/" target="_blank">https://getbootstrap.com/docs/4.5/components/popovers/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-popovers.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-popovers.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Popovers -->
+                    <!-- Badges -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="badges" class="card-title">Badges</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Small and adaptive badge for adding context to just about any content.</p>
+                                <p>Below have options that you can use with <code>.badge</code> :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Badges options</th>
+                                            <th>Class</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Badges colored</strong></td>
+                                            <td><code>.badge-{colorName}</code></td>
+                                            <td>Use any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like
+                                                to add for badge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Badges light colored</strong></td>
+                                            <td><code>.badge-light-{colorName}</code></td>
+                                            <td>Use any template color from <a href="documentation-colors.html">COLOR PALETTE</a> that you like
+                                                to add for badge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Badge with icon</strong></td>
+                                            <td><code>.badge-icon</code></td>
+                                            <td>Add mentioned class to make badge with icon.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/badge" target="_blank">https://getbootstrap.com/docs/4.5/components/badge</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-badges.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-badges.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Badges -->
+                    <!-- Pill badges -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="pill-badges" class="card-title">Pill badges</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Use the <code>.badge-pill</code> modifier class with <code>.badge</code> to make
+                                    more rounded (with a larger border-radius and additional horizontal padding).</p>
+                                <p>Below have options that you can use with <code>.badge-pill</code> :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Pill badges options</th>
+                                            <th>Class</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Pill tags with glow</strong></td>
+                                            <td><code>.badge-glow</code></td>
+                                            <td>To create glow styled pill badge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pill tags as notification</strong></td>
+                                            <td><code>.badge-up</code></td>
+                                            <td>To set pill badge to higher than other text. So that it can work with notifications also.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Pill tag with round</strong></td>
+                                            <td><code>.badge-round</code></td>
+                                            <td>To get pill badge in round shape.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="alert bg-rgba-warning mb-1 mt-2">Custom Badges with circle. <strong>Note:</strong> Mainly used with
+                                    icons and avatars.</div>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Custom Badge Options</th>
+                                            <th>Class</th>
+                                            <th>description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Badge with circle</strong></td>
+                                            <td><code>.badge-circle</code></td>
+                                            <td>To create badge with circle.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Badge circle with colored background</strong></td>
+                                            <td><code>.badge-circle-{colorName}</code></td>
+                                            <td>To create circle badges with colored background options.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Badge circle with light background</strong></td>
+                                            <td><code>.badge-circle-light-{colorName}</code></td>
+                                            <td>To create circle badges with light colored background options.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Badge circle size</strong></td>
+                                            <td><code>.badge-circle-{ lg | sm }</code></td>
+                                            <td>Large or small size of badge circle.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/badge/#pill-badges" target="_blank">https://getbootstrap.com/docs/4.5/components/badge/#pill-badges</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pill-badges.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-pill-badges.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Pill badges -->
+                    <!-- Progress -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="progress" class="card-title">Progress</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">Stylize the HTML5 <code>&lt;progress&gt;</code> element.</p>
+                                <p>Below have options that you can use with Progress :</p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Progress options</th>
+                                            <th>Class</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Basic Progress</strong></td>
+                                            <td><code>.progress</code></td>
+                                            <td>Basic progress bars using this class.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Progress Colored</strong></td>
+                                            <td><code>.progress-bar-*</code></td>
+                                            <td>Use <a href="documentation-colors.html">COLOR PALETTE</a> for progress color.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Progress bar Size</strong></td>
+                                            <td><code>.progress-sm</code></td>
+                                            <td>For small sized progress bar.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/progress" target="_blank">https://getbootstrap.com/docs/4.5/components/progress</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-progress.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-progress.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Progress -->
+                    <!-- Media Objects -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="media-object" class="card-title">Media Objects</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p class="content-group">The media object is an abstract element used as the basis for building more complex and
+                                    repetitive components.</p>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/media-object/" target="_blank">https://getbootstrap.com/docs/4.5/components/media-object/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-media-objects.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-media-objects.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Media Objects -->
+                    <!-- Spinners -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="spinners" class="card-title">Spinners</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and
+                                    no JavaScript.</p>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/spinners/" target="_blank">https://getbootstrap.com/docs/4.5/components/spinners/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-spinner.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-spinner.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Spinners -->
+                    <!-- Toast -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 id="toast" class="card-title">Toast</h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="bx bx-chevron-down"></i></a></li>
+                                    <li><a data-action="expand"><i class="bx bx-fullscreen"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content collapse show" aria-expanded="true">
+                            <div class="card-body">
+                                <p>Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</p>
+                                <p><strong>Referrals :</strong></p>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Bootstrap Page</strong></td>
+                                            <td><a href="https://getbootstrap.com/docs/4.5/components/toasts/" target="_blank">https://getbootstrap.com/docs/4.5/components/toasts/</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Template Page</strong></td>
+                                            <td><a href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-bs-toast.html" target="_blank">https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/ltr/vertical-menu-template/component-bs-toast.html</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Toasts -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0"><span class="float-left d-inline-block">2021 &copy; PIXINVENT</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a></span></p>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
+
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/customizer.js"></script>
+    <script src="../../../app-assets/js/scripts/documentation.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/ui/prism.min.js" type="text/javascript"></script>
+    <script src="../../../app-assets/vendors/js/ui/affix.js" type="text/javascript"></script>
+</body>
+
+</html>
